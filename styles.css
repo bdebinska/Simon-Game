@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background-color: #222831;
+}
+
+/* text */
+
+.level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #eeeeee;
+}
+
+.footer {
+    font-family: 'Merriweather', serif;
+    font-size: 0.5rem;
+    color: #eeeeee;
+}
+
+/* containers */
+
+.container {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+/* buttons */
+
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    text-align: center;
+}
+
+.yellow {
+    background-color: #fbd46d;
+}
+
+.blue {
+    background-color: #4f8a8b;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* images */
+
+.duck-img {
+    width: 100%;
+    margin: auto;
+}
+
+/* game over */
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
